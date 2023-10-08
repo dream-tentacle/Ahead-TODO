@@ -5,7 +5,13 @@ https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_Jav
 
 so don't be surprised that the css is almost the same as the original one.
 
-# Getting Started with Create React App
+# How to use
+
+When adding a task, please type in the format "{TASK} {DATE} {AHEAD_DAYS}", and the DATE should look like 20231008 or 231008 or 1008 (the last one will use the current year)
+
+The AHEAD_DAYS will control how many days will the task appear before the deadline. For example, if you set "{TASK} 231010 3", the task won't appear in "active" until 2023.10.7.
+
+# The followings are basic npm instructions
 
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
